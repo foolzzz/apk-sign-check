@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         sc.checkAppSignature(getApplicationContext());
+        sc.checkAppSignature(this);
     }
 }
